@@ -9,9 +9,9 @@ class MainForm extends AbstractForm
 {
 
     /**
-     * @event imageAlt.click-Left 
+     * @event close.click-Left 
      */
-    function doImageAltClickLeft(UXMouseEvent $e = null)
+    function doCloseClickLeft(UXMouseEvent $e = null)
     {
         
         
@@ -27,9 +27,9 @@ class MainForm extends AbstractForm
     }
 
     /**
-     * @event image3.click-Left 
+     * @event minimize.click-Left 
      */
-    function doImage3ClickLeft(UXMouseEvent $e = null)
+    function doMinimizeClickLeft(UXMouseEvent $e = null)
     {
         
         

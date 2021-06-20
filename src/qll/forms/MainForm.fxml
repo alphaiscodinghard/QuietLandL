@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616" prefWidth="1024" styleClass="">
   <children>
-    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="688" id="girl" layoutX="-34" layoutY="-46" mosaic="false" mosaicGap="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="1072">
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="688" id="bg" layoutX="-34" layoutY="-46" mosaic="false" mosaicGap="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="1072">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-girl" image=".data/img/Sgh_CgHHMIc.jpg" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-bg" image=".data/img/scr1.jpg" visible="1"/>
     <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="24" id="rect" layoutX="0" layoutY="0" opacity="0.60975609756098" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1024"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="6" layoutY="4" prefHeight="20" prefWidth="192" styleClass="label " text="QuietLand - я сосу" textAlignment="LEFT" underline="false" wrapText="false">
@@ -15,52 +15,27 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="imageAlt" layoutX="1000" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="close" layoutX="1000" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/cross.png" visible="1"/>
-    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="image3" layoutX="976" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
+    <Data cursor="DEFAULT" enabled="1" id="data-close" image=".data/img/close.png" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="24" id="minimize" layoutX="976" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="24">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/xyu.png" visible="1"/>
-    <TabPaneEx focusTraversable="true" id="tabPane" layoutX="0" layoutY="24" opacity="0.59756097560976" prefHeight="592" prefWidth="32" side="LEFT" styleClass="tab-pane " tabClosingPolicy="UNAVAILABLE">
-      <tabs>
-        <Tab text="Играть">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="5" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-        <Tab text="Моды">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="5" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-        <Tab text="Настройки">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="5" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-        <Tab text="Карта">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="5" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-      </tabs>
-    </TabPaneEx>
-    <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabPane" visible="1"/>
-    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="32" layoutY="24" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="992" spacing="0" styleClass="fragment-pane "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-minimize" image=".data/img/minimize.png" visible="1"/>
+    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="56" layoutY="24" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="592" prefWidth="968" spacing="0" styleClass="fragment-pane "/>
     <Data content="xyu" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="592" id="rectAlt" layoutX="0" layoutY="24" opacity="0.60975609756098" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="56"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="settings" layoutX="4" layoutY="564" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-settings" image=".data/img/settings.png" visible="1"/>
   </children>
 </AnchorPane>
