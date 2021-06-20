@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="girl">
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+    <behaviour brightness="-0.49382716049383" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image">
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="50" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="label">
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>
